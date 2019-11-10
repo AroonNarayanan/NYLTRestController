@@ -4,9 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NYLTRestController2
+namespace NYLT
 {
-    public class Class1
+    public class RestController
     {
+        readonly string Host;
+        RestController(string Host)
+        {
+
+        }
     }
 }
