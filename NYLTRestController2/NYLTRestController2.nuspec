@@ -6,10 +6,13 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <projectUrl>https://github.com/AroonNarayanan/NYLTRestController</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>Refactored class structure, streamlined project, and improved interoperability.</releaseNotes>
     <copyright>Copyright 2019</copyright>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="12.0.3" />
+      <dependency id="Microsoft.NETCore.UniversalWindowsPlatform" version="6.2.9" />
+    </dependencies>
   </metadata>
 </package>
